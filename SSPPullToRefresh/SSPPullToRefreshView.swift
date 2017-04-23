@@ -14,13 +14,12 @@ public protocol SSPPullToRefreshDelegate {
     func pullReleaseDidFinish(refreshView:SSPPullToRefreshView)
 }
 
-public class SSPPullToRefreshView : UIView {
-    var delegate:SSPPullToRefreshDelegate?
+open class SSPPullToRefreshView : UIView {
+    open var delegate:SSPPullToRefreshDelegate?
+    open var activityIndicatorView:SSPActivityIndicatorView?
     
-    func setPullProgress(progress:CGFloat) {}
-    func releasePull() {}
-    func startUpdateAnimation() {}
-    func startCompressingAnimation() {}
-    
-    var activityIndicatorView:SSPActivityIndicatorView?
+    open func setPullProgress(progress:CGFloat) {}
+    open func releasePull() {}
+    open func startUpdateAnimation() {}
+    open func startCompressingAnimation() {}
 }

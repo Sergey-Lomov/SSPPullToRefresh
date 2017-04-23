@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-public class SSPActivityIndicatorView:UIView {
-    func reset() {}
-    func stopAnimating() {}
-    func startAnimating() {}
+open class SSPActivityIndicatorView:UIView {
+    open func reset() {}
+    open func stopAnimating() {}
+    open func startAnimating() {}
 }
