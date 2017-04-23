@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol SSPPullToRefreshDelegate {
+public protocol SSPPullToRefreshDelegate {
     func preparationDidFinish(refreshView:SSPPullToRefreshView)
     func compressingDidFinish(refreshView:SSPPullToRefreshView)
-   // func pullReleaseDidFinish(refreshView:SSPPullToRefreshView)
+    func pullReleaseDidFinish(refreshView:SSPPullToRefreshView)
 }
 
-class SSPPullToRefreshView : UIView {
+public class SSPPullToRefreshView : UIView {
     var delegate:SSPPullToRefreshDelegate?
     
     func setPullProgress(progress:CGFloat) {}
