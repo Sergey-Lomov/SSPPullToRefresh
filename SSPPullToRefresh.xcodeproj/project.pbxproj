@@ -13,7 +13,7 @@
 		8EE440291EAD4E5B0064631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE440281EAD4E5B0064631C /* Assets.xcassets */; };
 		8EE4402C1EAD4E5B0064631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE4402A1EAD4E5B0064631C /* LaunchScreen.storyboard */; };
 		8EE440351EAD4E940064631C /* SSPPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */; };
-		8EE440361EAD4E940064631C /* SSPActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440341EAD4E940064631C /* SSPActivityIndicator.swift */; };
+		8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		8EE4402B1EAD4E5B0064631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EE4402D1EAD4E5B0064631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPPullToRefreshView.swift; sourceTree = "<group>"; };
-		8EE440341EAD4E940064631C /* SSPActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPActivityIndicator.swift; sourceTree = "<group>"; };
+		8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				8EE440211EAD4E5B0064631C /* AppDelegate.swift */,
 				8EE440231EAD4E5B0064631C /* ViewController.swift */,
 				8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */,
-				8EE440341EAD4E940064631C /* SSPActivityIndicator.swift */,
+				8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */,
 				8EE440251EAD4E5B0064631C /* Main.storyboard */,
 				8EE440281EAD4E5B0064631C /* Assets.xcassets */,
 				8EE4402A1EAD4E5B0064631C /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EE440351EAD4E940064631C /* SSPPullToRefreshView.swift in Sources */,
-				8EE440361EAD4E940064631C /* SSPActivityIndicator.swift in Sources */,
+				8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */,
 				8EE440241EAD4E5B0064631C /* ViewController.swift in Sources */,
 				8EE440221EAD4E5B0064631C /* AppDelegate.swift in Sources */,
 			);

@@ -22,5 +22,5 @@ class SSPPullToRefreshView : UIView {
     func startUpdateAnimation() {}
     func startCompressingAnimation() {}
     
-    var activityIndicatorView:SSPActivityIndicator?
+    var activityIndicatorView:SSPActivityIndicatorView?
 }

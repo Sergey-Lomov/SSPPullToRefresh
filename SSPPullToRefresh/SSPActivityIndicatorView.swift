@@ -1,5 +1,5 @@
 //
-//  SSPActivityIndicator.swift
+//  SSPActivityIndicatorView.swift
 //  BezierAnimation
 //
 //  Created by Sergey Lomov on 4/18/17.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SSPActivityIndicator:UIView {
+class SSPActivityIndicatorView:UIView {
     func reset() {}
     func stopAnimating() {}
     func startAnimating() {}
