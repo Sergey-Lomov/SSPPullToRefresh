@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SSPLiquidRefreshView: SSPPullToRefreshView {
+open class SSPLiquidRefreshView: SSPPullToRefreshView {
 
     override var activityIndicatorView: SSPActivityIndicatorView? {
         didSet {
