@@ -10,15 +10,19 @@ import UIKit
 
 open class SSPLayerSpeedActivityView: SSPActivityIndicatorView {
 
-    // Should be setted in subclass at animation adding
-    internal var animationAddingTime:CFTimeInterval?
+    private var animationAddingTime:CFTimeInterval?
     
-    open override func reset() {
+    // Should be called in subclass at animation adding
+    public final func setAnimationAddingTime () {
+        animationAddingTime = CACurrentMediaTime()
+    }
+    
+    public final override func reset() {
         layer.speed = 0.0
         layer.timeOffset = animationAddingTime!
     }
     
-    open override func startAnimating() {
+    public final override func startAnimating() {
         let stopedLayerTime = layer.convertTime(CACurrentMediaTime(), from: nil)
         layer.speed = 1.0
         layer.timeOffset = 0.0
@@ -26,7 +30,7 @@ open class SSPLayerSpeedActivityView: SSPActivityIndicatorView {
         layer.timeOffset = -1 * (runedLayerTime - stopedLayerTime)
     }
     
-    open override func stopAnimating() {
+    public final override func stopAnimating() {
         let layerTime = layer.convertTime(CACurrentMediaTime(), from: nil)
         layer.speed = 0
         layer.timeOffset = layerTime

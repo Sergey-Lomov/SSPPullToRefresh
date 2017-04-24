@@ -29,7 +29,7 @@ open class SSPDefaultActivityView: SSPLayerSpeedActivityView {
         self.addSubview(activity)
         activity.isHidden = false
         activity.startAnimating()
-        animationAddingTime = CACurrentMediaTime()
+        setAnimationAddingTime()
         
         let leftConstraint = NSLayoutConstraint(item: activity, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0)
         let rightConstraint = NSLayoutConstraint(item: activity, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)
