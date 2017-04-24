@@ -6,7 +6,6 @@
 //  Copyright © 2017 Rozdoum. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 open class SSPActivityIndicatorView:UIView {

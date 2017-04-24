@@ -13,6 +13,6 @@ This general classes provide for client the possbility to make own derived imple
   s.source           = { :git => 'https://github.com/Sergey-Lomov/SSPPullToRefresh.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.1'
-  s.source_files = 'SSPPullToRefresh/*.swift'
+  s.source_files = '**/*.swift'
 
 end
