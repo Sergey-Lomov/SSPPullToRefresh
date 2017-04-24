@@ -897,7 +897,7 @@ open class SSPLiquidRefreshView: SSPPullToRefreshView {
         layer.addSublayer(compressingLayer)
     }
     
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         if !isLayersInit {
             initPullLayer()
             initUpdateLayer()
