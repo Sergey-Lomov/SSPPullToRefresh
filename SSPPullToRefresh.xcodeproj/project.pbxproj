@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EE440221EAD4E5B0064631C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440211EAD4E5B0064631C /* AppDelegate.swift */; };
-		8EE440241EAD4E5B0064631C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440231EAD4E5B0064631C /* ViewController.swift */; };
-		8EE440271EAD4E5B0064631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE440251EAD4E5B0064631C /* Main.storyboard */; };
-		8EE440291EAD4E5B0064631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE440281EAD4E5B0064631C /* Assets.xcassets */; };
-		8EE4402C1EAD4E5B0064631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE4402A1EAD4E5B0064631C /* LaunchScreen.storyboard */; };
 		8EE440351EAD4E940064631C /* SSPPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */; };
 		8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */; };
 		8EE440421EAE68540064631C /* SSPLayerSpeedActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */; };
@@ -20,12 +15,6 @@
 
 /* Begin PBXFileReference section */
 		8EE4401E1EAD4E5B0064631C /* SSPPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EE440211EAD4E5B0064631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EE440231EAD4E5B0064631C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EE440261EAD4E5B0064631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8EE440281EAD4E5B0064631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EE4402B1EAD4E5B0064631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EE4402D1EAD4E5B0064631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPPullToRefreshView.swift; sourceTree = "<group>"; };
 		8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPActivityIndicatorView.swift; sourceTree = "<group>"; };
 		8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPLayerSpeedActivityView.swift; sourceTree = "<group>"; };
@@ -62,16 +51,10 @@
 		8EE440201EAD4E5B0064631C /* SSPPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				8EE440211EAD4E5B0064631C /* AppDelegate.swift */,
-				8EE440231EAD4E5B0064631C /* ViewController.swift */,
 				8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */,
 				8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */,
 				8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */,
 				8EE440431EAE68700064631C /* SSPDefaultActivityView.swift */,
-				8EE440251EAD4E5B0064631C /* Main.storyboard */,
-				8EE440281EAD4E5B0064631C /* Assets.xcassets */,
-				8EE4402A1EAD4E5B0064631C /* LaunchScreen.storyboard */,
-				8EE4402D1EAD4E5B0064631C /* Info.plist */,
 			);
 			path = SSPPullToRefresh;
 			sourceTree = "<group>";
@@ -136,9 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EE4402C1EAD4E5B0064631C /* LaunchScreen.storyboard in Resources */,
-				8EE440291EAD4E5B0064631C /* Assets.xcassets in Resources */,
-				8EE440271EAD4E5B0064631C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,31 +133,10 @@
 				8EE440421EAE68540064631C /* SSPLayerSpeedActivityView.swift in Sources */,
 				8EE440351EAD4E940064631C /* SSPPullToRefreshView.swift in Sources */,
 				8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */,
-				8EE440241EAD4E5B0064631C /* ViewController.swift in Sources */,
-				8EE440221EAD4E5B0064631C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8EE440251EAD4E5B0064631C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EE440261EAD4E5B0064631C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8EE4402A1EAD4E5B0064631C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8EE4402B1EAD4E5B0064631C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8EE4402E1EAD4E5B0064631C /* Debug */ = {
