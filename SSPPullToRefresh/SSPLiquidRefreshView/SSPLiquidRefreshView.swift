@@ -10,7 +10,7 @@ import UIKit
 
 open class SSPLiquidRefreshView: SSPPullToRefreshView {
 
-    override var activityIndicatorView: SSPActivityIndicatorView? {
+    open override var activityIndicatorView: SSPActivityIndicatorView? {
         didSet {
             oldValue?.removeFromSuperview()
             self.activityWrapper.addSubview(activityIndicatorView!)
