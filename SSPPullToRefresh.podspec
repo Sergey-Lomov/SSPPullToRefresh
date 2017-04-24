@@ -12,7 +12,7 @@ This general classes provide for client the possbility to make own derived imple
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.source           = { :git => 'https://github.com/Sergey-Lomov/SSPPullToRefresh.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.1'
+  s.ios.deployment_target = '9.0'
   s.source_files = '**/*.swift'
 
 end
