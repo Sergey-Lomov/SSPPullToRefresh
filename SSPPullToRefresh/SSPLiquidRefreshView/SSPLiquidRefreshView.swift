@@ -10,7 +10,7 @@ import UIKit
 
 open class SSPLiquidRefreshView: SSPPullToRefreshView {
 
-    override var activityIndicatorView: SSPActivityIndicatorView? {
+    open override var activityIndicatorView: SSPActivityIndicatorView? {
         didSet {
             oldValue?.removeFromSuperview()
             self.activityWrapper.addSubview(activityIndicatorView!)
@@ -896,8 +896,8 @@ open class SSPLiquidRefreshView: SSPPullToRefreshView {
         
         layer.addSublayer(compressingLayer)
     }
-
-    internal override func layoutSubviews() {
+    
+    override func layoutSubviews() {
         if !isLayersInit {
             initPullLayer()
             initUpdateLayer()
