@@ -22,9 +22,9 @@
 		8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPActivityIndicatorView.swift; sourceTree = "<group>"; };
 		8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPLayerSpeedActivityView.swift; sourceTree = "<group>"; };
 		8EE440431EAE68700064631C /* SSPDefaultActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPDefaultActivityView.swift; sourceTree = "<group>"; };
-		8EE440461EAE920B0064631C /* BlobAnimationInstruction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlobAnimationInstruction.png; path = ../../../../Projects/BezierAnimation/BezierAnimation/BlobAnimationInstruction.png; sourceTree = "<group>"; };
-		8EE440471EAE920B0064631C /* BlobAnimationAxises.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlobAnimationAxises.png; path = ../../../../Projects/BezierAnimation/BezierAnimation/BlobAnimationAxises.png; sourceTree = "<group>"; };
-		8EE4404A1EAE92110064631C /* SSPLiquidRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSPLiquidRefreshView.swift; path = ../../../../Projects/BezierAnimation/BezierAnimation/SSPLiquidRefreshView.swift; sourceTree = "<group>"; };
+		8EE440461EAE920B0064631C /* BlobAnimationInstruction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlobAnimationInstruction.png; sourceTree = "<group>"; };
+		8EE440471EAE920B0064631C /* BlobAnimationAxises.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlobAnimationAxises.png; sourceTree = "<group>"; };
+		8EE4404A1EAE92110064631C /* SSPLiquidRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPLiquidRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SSPPullToRefresh
 
 class SSPLiquidRefreshView: SSPPullToRefreshView {
 
