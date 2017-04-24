@@ -8,17 +8,17 @@
 
 import UIKit
 
-class SSPDefaultActivityView: SSPLayerSpeedActivityView {
+open class SSPDefaultActivityView: SSPLayerSpeedActivityView {
 
     var activity:UIActivityIndicatorView!
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         addDefaultActivity()
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         addDefaultActivity()
     }

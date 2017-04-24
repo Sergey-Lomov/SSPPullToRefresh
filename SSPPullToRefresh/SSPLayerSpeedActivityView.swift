@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SSPLayerSpeedActivityView: SSPActivityIndicatorView {
+open class SSPLayerSpeedActivityView: SSPActivityIndicatorView {
 
     // Should be setted in subclass at animation adding
     internal var animationAddingTime:CFTimeInterval?
