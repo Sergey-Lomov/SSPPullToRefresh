@@ -17,14 +17,14 @@ open class SSPLiquidRefreshView: SSPPullToRefreshView {
         }
     }
     
-    var fillColor:UIColor?
-    var strokeColor:UIColor?
+    open var fillColor:UIColor?
+    open var strokeColor:UIColor?
     
-    var activitySizeCoeffecient:CGFloat = 1.0 // Relation between blob dimeter and activity frame size
-    var blobRadius:CGFloat = 25
-    var blobEdgeDistanceCoeffectient:CGFloat = 3 // Relation between blob radius and distance when blob drop
-    var blobBulkCoeffectient:CGFloat = 1.5 // Increase recession effect
-    var blobDestinationCoeffecient:CGFloat = 4 // Relation between blob radius and distance between legide height and destination blob Y position
+    open var activitySizeCoeffecient:CGFloat = 1.0 // Relation between blob dimeter and activity frame size
+    open var blobRadius:CGFloat = 25
+    open var blobEdgeDistanceCoeffectient:CGFloat = 3 // Relation between blob radius and distance when blob drop
+    open var blobBulkCoeffectient:CGFloat = 1.5 // Increase recession effect
+    open var blobDestinationCoeffecient:CGFloat = 4 // Relation between blob radius and distance between legide height and destination blob Y position
     
     // Angle of line from blob curves startpoint to control point 1 should be equal 135˚ (-135˚ for left).
     // Folowing coeffectient means relation between radius and distance betwee start point and control point 1
