@@ -11,6 +11,9 @@
 		8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */; };
 		8EE440421EAE68540064631C /* SSPLayerSpeedActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */; };
 		8EE440441EAE68700064631C /* SSPDefaultActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE440431EAE68700064631C /* SSPDefaultActivityView.swift */; };
+		8EE440481EAE920B0064631C /* BlobAnimationInstruction.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE440461EAE920B0064631C /* BlobAnimationInstruction.png */; };
+		8EE440491EAE920B0064631C /* BlobAnimationAxises.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE440471EAE920B0064631C /* BlobAnimationAxises.png */; };
+		8EE4404B1EAE92110064631C /* SSPLiquidRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4404A1EAE92110064631C /* SSPLiquidRefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPActivityIndicatorView.swift; sourceTree = "<group>"; };
 		8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPLayerSpeedActivityView.swift; sourceTree = "<group>"; };
 		8EE440431EAE68700064631C /* SSPDefaultActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPDefaultActivityView.swift; sourceTree = "<group>"; };
+		8EE440461EAE920B0064631C /* BlobAnimationInstruction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlobAnimationInstruction.png; path = ../../../../Projects/BezierAnimation/BezierAnimation/BlobAnimationInstruction.png; sourceTree = "<group>"; };
+		8EE440471EAE920B0064631C /* BlobAnimationAxises.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlobAnimationAxises.png; path = ../../../../Projects/BezierAnimation/BezierAnimation/BlobAnimationAxises.png; sourceTree = "<group>"; };
+		8EE4404A1EAE92110064631C /* SSPLiquidRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSPLiquidRefreshView.swift; path = ../../../../Projects/BezierAnimation/BezierAnimation/SSPLiquidRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +57,23 @@
 		8EE440201EAD4E5B0064631C /* SSPPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				8EE440451EAE91BB0064631C /* SSPLiquidRefreshView */,
 				8EE440331EAD4E940064631C /* SSPPullToRefreshView.swift */,
 				8EE440341EAD4E940064631C /* SSPActivityIndicatorView.swift */,
 				8EE440411EAE68540064631C /* SSPLayerSpeedActivityView.swift */,
 				8EE440431EAE68700064631C /* SSPDefaultActivityView.swift */,
 			);
 			path = SSPPullToRefresh;
+			sourceTree = "<group>";
+		};
+		8EE440451EAE91BB0064631C /* SSPLiquidRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				8EE440461EAE920B0064631C /* BlobAnimationInstruction.png */,
+				8EE440471EAE920B0064631C /* BlobAnimationAxises.png */,
+				8EE4404A1EAE92110064631C /* SSPLiquidRefreshView.swift */,
+			);
+			path = SSPLiquidRefreshView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE440491EAE920B0064631C /* BlobAnimationAxises.png in Resources */,
+				8EE440481EAE920B0064631C /* BlobAnimationInstruction.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +151,7 @@
 				8EE440441EAE68700064631C /* SSPDefaultActivityView.swift in Sources */,
 				8EE440421EAE68540064631C /* SSPLayerSpeedActivityView.swift in Sources */,
 				8EE440351EAD4E940064631C /* SSPPullToRefreshView.swift in Sources */,
+				8EE4404B1EAE92110064631C /* SSPLiquidRefreshView.swift in Sources */,
 				8EE440361EAD4E940064631C /* SSPActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
